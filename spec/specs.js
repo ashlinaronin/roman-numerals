@@ -50,14 +50,16 @@ describe('numeralGenerator', function() {
     it ("returns XIV for an input of 14", function(){
         expect(numeralGenerator(14)).to.equal("XIV");
     });
+
     it ("returns LXVI for an input of 66", function(){
         expect(numeralGenerator(66)).to.equal("LXVI");
     });
+
     it ("returns XC for an input of 90", function(){
         expect(numeralGenerator(90)).to.equal("XC");
     });
+
     it ("returns XCIX for an input of 99", function(){
         expect(numeralGenerator(99)).to.equal("XCIX");
     });
-
 });
